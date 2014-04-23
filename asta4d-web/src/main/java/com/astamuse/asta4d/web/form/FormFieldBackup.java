@@ -49,8 +49,8 @@ public class FormFieldBackup<T> extends ContextDataHolder {
     }
 
     @Override
-    public void setValue(String scope, String name, Object value) {
-        super.setValue(scope, name, value);
+    public void setData(String scope, String name, Object value) {
+        super.setData(scope, name, value);
 
         if (value == null) {
             return;

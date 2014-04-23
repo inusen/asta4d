@@ -37,7 +37,7 @@ public class DebugForm extends JsrBeanValidationForm {
         WebApplicationConfiguration.setConfiguration(conf);
 
         DebugForm form = new DebugForm();
-        form.age.setValue("", "age-debug", "x");
+        form.age.setData("", "age-debug", "x");
         System.out.println("validate result:" + form.isValid());
     }
 
